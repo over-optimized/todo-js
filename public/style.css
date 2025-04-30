@@ -18,10 +18,14 @@
 .todo-list {
   width: 100%;
   padding-left: 0;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .todo-list li {
   list-style-type: none;
+  display: flex;
 }
 
 .todo-item {
@@ -56,9 +60,12 @@
 
 .todo-done-button {
   background-color: #1c793d;
-
 }
 
 .todo-remove-button {
   background-color: #822525;
+}
+
+.todo-display {
+  border: 1px solid #ccc;
 }
