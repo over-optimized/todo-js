@@ -47,7 +47,9 @@
 }
 
 .todo-control {
-  border: none;
+  color: #c9c9c9;
+  border: 2px solid #1c793d;
+  border-radius: 10px;
   padding: 5px 10px;
   text-align: center;
   text-decoration: none;
@@ -59,10 +61,16 @@
 }
 
 .todo-done-button {
+  background-color: #219449;
+}
+.todo-done-button:hover {
   background-color: #1c793d;
 }
-
 .todo-remove-button {
+  border: 2px solid #822525;
+  background-color: #9b2626;
+}
+.todo-remove-button:hover {
   background-color: #822525;
 }
 
